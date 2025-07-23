@@ -1,0 +1,21 @@
+{
+    "keum_river_basin": 
+    { "ydd_downstream": {
+        "train_step": "train",
+        "forecast_step": "forecast",
+        "region": "yd_dam_downstream",
+        "target_variable": "hwl",
+        "cmd_num": 1,
+        "mlflow_train": "용담댐하류_하천수위예측_AI모델학습",
+        "mlflow_forecast": "용담댐하류_하천수위예측_AI모델예측"
+        },
+      "dccd_downstream": {
+        "train_step": "train",
+        "forecast_step": "forecast",
+        "region": "dcc_dam_downstream",
+        "target_variable": "hwl",
+        "cmd_num": 2,
+        "mlflow_train": "대청조정지댐하류_하천수위예측_AI모델학습",
+        "mlflow_forecast": "대청조정지댐하류_하천수위예측_AI모델예측"}
+    }
+} 

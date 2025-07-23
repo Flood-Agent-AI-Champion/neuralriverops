@@ -1,0 +1,48 @@
+batch_size: 256
+clip_gradient_norm: 1
+clip_targets_to_zero:
+- 3004630_hwl
+data_dir: ar_data
+dataset: hourlycsv
+device: cuda:0
+dynamic_inputs:
+- yd_hoflw
+epochs: 5
+experiment_name: 
+forcings:
+- hourly
+head: regression
+hidden_size: 128
+initial_forget_bias: 3
+learning_rate:
+  0: 0.01
+  30: 0.005
+  40: 0.001
+log_interval: 5
+log_n_figures: 1
+log_tensorboard: false
+loss: MSE
+metrics:
+- NSE
+model: cudalstm
+num_workers: 0
+optimizer: Adam
+output_activation: linear
+output_dropout: 0.4
+predict_last_n: 1
+run_dir: 
+save_weights_every: 5
+seq_length: 720
+target_variables:
+- 3004630_hwl
+test_basin_file: Train_YD_Dam_DownStream.txt
+test_end_date: 30/09/2023
+test_start_date: 01/10/2021
+train_basin_file: Train_YD_Dam_DownStream.txt
+train_end_date: 30/09/2020
+train_start_date: 01/10/2014
+validate_every: 5
+validate_n_random_basins: 1
+validation_basin_file: Train_YD_Dam_DownStream.txt
+validation_end_date: 30/09/2021
+validation_start_date: 01/10/2020

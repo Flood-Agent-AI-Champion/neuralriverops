@@ -1,0 +1,253 @@
+﻿yd_dam_downstream_hwl: 
+ - 3004630_hwl:
+    target_code: "3004630_hwl"
+    target_name: "진안군(감동교)(본류)"
+    input_hoflw_code: "ydd_hrel"
+    input_hrf_code: "3003430_hrf"
+    input_hwl_code: "3004630_hwl_AR"  
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3002655_hwl:
+    target_code: "3002655_hwl"
+    target_name: "무주군(대티교)(본류)"
+    input_hoflw_code: "ydd_hrel"
+    input_hrf_code: "3003430_hrf"
+    input_hwl_code: ["3004630_hwl", "3002655_hwl_AR"]
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3003620_hwl:
+    target_code: "3003620_hwl"
+    target_name: "무주군(신촌농2교)(무주남대천)"
+    input_hoflw_code: 
+    input_hrf_code: "3003450_hrf"
+    input_hwl_code: "3003620_hwl_AR" 
+    train_start_date: "01/10/2019"
+    train_end_date:  "30/09/2022"
+    validation_start_date: "01/10/2022"
+    validation_end_date: "30/09/2023"
+    test_start_date: "01/10/2023"
+    test_end_date: "30/09/2024"
+ - 3003660_hwl: 
+    target_code: "3003660_hwl"
+    target_name: "무주군(여의교)(무주남대천)"
+    input_hoflw_code: 
+    input_hrf_code: ["3003431_hrf", "3003450_hrf","3003454_hrf","8000735_hrf"]
+    input_hwl_code: "3003660_hwl_AR"
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3003680_hwl: 
+    target_code: "3003680_hwl"
+    target_name: "무주군(취수장)(무주남대천)"
+    input_hoflw_code: "mjd_hrel"
+    input_hrf_code: ["3003431_hrf", "3003450_hrf","3003454_hrf","8000735_hrf"]
+    input_hwl_code: "3003680_hwl_AR"
+    train_start_date: "01/10/2017"
+    train_end_date:  "30/09/2022"
+    validation_start_date: "01/10/2022"
+    validation_end_date: "30/09/2023"
+    test_start_date: "01/10/2023"
+    test_end_date: "30/09/2024"
+ - 3004620_hwl: 
+    target_code: "3004620_hwl"
+    target_name: "금산군(적벽교)(본류)"
+    input_hoflw_code: ["ydd_hrel", "mjd_hrel"]
+    input_hrf_code: ["3003430_hrf", "3003420_hrf", "8000701_hrf", "3003452_hrf", "3003431_hrf", "3003450_hrf","3003454_hrf","8000735_hrf"]
+    input_hwl_code: "3004620_hwl_AR"
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2019"
+    validation_start_date: "01/10/2019"
+    validation_end_date: "30/09/2020"
+    test_start_date: "01/10/2020"
+    test_end_date: "30/09/2021"
+ - 9000218_hwl: 
+    target_code: "9000218_hwl"
+    target_name: "금산군(제원대교)(본류)"
+    input_hoflw_code: ["ydd_hrel", "mjd_hrel"]
+    input_hrf_code: ["3003430_hrf", "3003420_hrf", "8000701_hrf", "3003452_hrf", "3003431_hrf", "3003450_hrf","3003454_hrf","8000735_hrf"]
+    input_hwl_code: ["3004620_hwl", "9000218_hwl_AR"]
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2019"
+    validation_start_date: "01/10/2019"
+    validation_end_date: "30/09/2020"
+    test_start_date: "01/10/2020"
+    test_end_date: "30/09/2021"
+ - 3004670_hwl: 
+    target_code: "3004670_hwl"
+    target_name: "금산군(음대교)(봉황천)"
+    input_hoflw_code: 
+    input_hrf_code: "3004430_hrf"
+    input_hwl_code: "3004670_hwl_AR"
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3008670_hwl: 
+    target_code: "3008670_hwl"
+    target_name: "금산군(제원교)(봉황천)"
+    input_hoflw_code: 
+    input_hrf_code: ["3004430_hrf", "8000238_hrf"]
+    input_hwl_code: "3008670_hwl_AR"
+    train_start_date: "01/10/2022"
+    train_end_date:  "30/09/2023"
+    validation_start_date: "01/10/2023"
+    validation_end_date: "30/09/2024"
+    test_start_date: "01/10/2023"
+    test_end_date: "30/09/2024"
+ - 3004650_hwl: 
+    target_code: "3004650_hwl"
+    target_name: "영동군(호탄리)(본류)"
+    input_hoflw_code: ["ydd_hrel", "mjd_hrel"]
+    input_hrf_code: ["8000647_hrf", "3004430_hrf", "8000238_hrf", "3003430_hrf", "3003420_hrf", "8000701_hrf", "3003452_hrf", "3003431_hrf", "3003450_hrf", "3003454_hrf", "8000735_hrf"]
+    input_hwl_code: "3004650_hwl_AR"
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3004690_hwl: 
+    target_code: "3004690_hwl"
+    target_name: "영동군(양강교)(본류)"
+    input_hoflw_code: ["ydd_hrel", "mjd_hrel"]
+    input_hrf_code: ["8000647_hrf", "3004430_hrf", "8000238_hrf", "3003430_hrf", "3003420_hrf", "8000701_hrf", "3003452_hrf", "3003431_hrf", "3003450_hrf", "3003454_hrf", "8000735_hrf"]
+    input_hwl_code: ["3004650_hwl", "3004690_hwl_AR"]
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3005667_hwl: 
+    target_code: "3005667_hwl"
+    target_name: "영동군(백화교)(석천)"
+    input_hoflw_code: 
+    input_hrf_code: ["3007450_hrf", "8000834_hrf", "3007455_hrf", "9000016_hrf"]
+    input_hwl_code: "3005667_hwl_AR"
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3005690_hwl: 
+    target_code: "3005690_hwl"
+    target_name: "영동군(신천교)(초강)"
+    input_hoflw_code: 
+    input_hrf_code: ["3005454_hrf", "8000135_hrf", "3005450_hrf", "3005440_hrf", "3007450_hrf", "8000834_hrf", "3007455_hrf", "9000016_hrf"]
+    input_hwl_code: ["3004690_hwl", "3005690_hwl_AR"]
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3006680_hwl: 
+    target_code: "3006680_hwl"
+    target_name: "옥천군(이원대교)(본류)"
+    input_hoflw_code: ["ydd_hrel", "mjd_hrel"]
+    input_hrf_code: ["3005454_hrf", "8000135_hrf", "3005450_hrf", "3005440_hrf", "3007450_hrf", "8000834_hrf", "3007455_hrf", "9000016_hrf", "8000647_hrf", "3004430_hrf", "8000238_hrf", "3003430_hrf", "3003420_hrf", "8000701_hrf", "3003452_hrf", "3003431_hrf", "3003450_hrf", "3003454_hrf", "8000735_hrf"]
+    input_hwl_code: "3006680_hwl_AR"
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3007610_hwl: 
+    target_code: "3007610_hwl"
+    target_name: "보은군(산성교)(보청천)"
+    input_hoflw_code: 
+    input_hrf_code: "3007430_hrf"
+    input_hwl_code: "3007610_hwl_AR"
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2020"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3007620_hwl: 
+    target_code: "3007620_hwl"
+    target_name: "보은군(이평교)(보청천)"
+    input_hoflw_code:
+    input_hrf_code: ["3007470_hrf", "3007430_hrf"]
+    input_hwl_code: "3007620_hwl_AR"
+    train_start_date: "01/10/2015"
+    train_end_date:  "30/09/2020"
+    validation_start_date: "01/10/2022"
+    validation_end_date: "30/09/2023"
+    test_start_date: "01/10/2023"
+    test_end_date: "30/09/2024"
+ - 3007655_hwl: 
+    target_code: "3007655_hwl"
+    target_name: "보은군(대양교)(보청천)"
+    input_hoflw_code:
+    input_hrf_code: ["3007425_hrf", "3007483_hrf", "8000226_hrf", "3007440_hrf", "3007470_hrf", "3007430_hrf"]
+    input_hwl_code: "3007655_hwl_AR"
+    train_start_date: "01/10/2016"
+    train_end_date:  "30/09/2020"
+    validation_start_date: "01/10/2022"
+    validation_end_date: "30/09/2023"
+    test_start_date: "01/10/2023"
+    test_end_date: "30/09/2024"
+ - 3007640_hwl: 
+    target_code: "3007640_hwl"
+    target_name: "보은군(탄부교)(삼가천)"
+    input_hoflw_code: 
+    input_hrf_code: ["3007487_hrf", "3007481_hrf"]
+    input_hwl_code: "3007640_hwl_AR"
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"
+ - 3007650_hwl: 
+    target_code: "3007650_hwl"
+    target_name: "보은군(기대교)(보청천)"
+    input_hoflw_code:
+    input_hrf_code: ["3007479_hrf", "3007487_hrf", "3007481_hrf", "3007425_hrf", "3007483_hrf", "8000226_hrf", "3007440_hrf", "3007470_hrf", "3007430_hrf"]
+    input_hwl_code: ["3007655_hwl", "3007650_hwl_AR"]
+    train_start_date: "01/10/2016"
+    train_end_date:  "30/09/2020"
+    validation_start_date: "01/10/2022"
+    validation_end_date: "30/09/2023"
+    test_start_date: "01/10/2023"
+    test_end_date: "30/09/2024"
+ - 3007660_hwl: 
+    target_code: "3007660_hwl"
+    target_name: "옥천군(산계교)(보청천)"
+    input_hoflw_code:
+    input_hrf_code: ["8000626_hrf", "3007477_hrf", "3007479_hrf", "3007487_hrf", "3007481_hrf", "3007425_hrf", "3007483_hrf", "8000226_hrf", "3007440_hrf", "3007470_hrf", "3007430_hrf"]
+    input_hwl_code: ["3007650_hwl", "3007660_hwl_AR"]
+    train_start_date: "01/10/2016"
+    train_end_date:  "30/09/2020"
+    validation_start_date: "01/10/2022"
+    validation_end_date: "30/09/2023"
+    test_start_date: "01/10/2023"
+    test_end_date: "30/09/2024"
+ - 3008666_hwl: 
+    target_code: "3008666_hwl"
+    target_name: "옥천군(옥각교)(소옥천)"
+    input_hoflw_code:
+    input_hrf_code: ["8000604_hrf", "3008440_hrf", "3008450_hrf"]
+    input_hwl_code: "3008666_hwl_AR"
+    train_start_date: "01/10/2014"
+    train_end_date:  "30/09/2021"
+    validation_start_date: "01/10/2021"
+    validation_end_date: "30/09/2022"
+    test_start_date: "01/10/2022"
+    test_end_date: "30/09/2024"

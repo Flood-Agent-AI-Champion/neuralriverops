@@ -1,0 +1,58 @@
+batch_size: 256
+clip_gradient_norm: 1
+clip_targets_to_zero:
+- 3004620_hwl
+data_dir: /home/hydro/flood/2025_neuralriverops/neuralriverops/data/keum_river_basin/yd_dam_downstream/retrain/ar_data/train_data
+dataset: hourlycsv
+device: cuda:0
+dynamic_inputs:
+- ydd_hrel
+- mjd_hrel
+- 3003430_hrf
+- 3003420_hrf
+- 8000701_hrf
+- 3003452_hrf
+- 3003431_hrf
+- 3003450_hrf
+- 3003454_hrf
+- 8000735_hrf
+- 3004620_hwl_AR
+epochs: 5
+experiment_name: 3004620_hwl_cudalstm
+forcings:
+- hourly
+head: regression
+hidden_size: 128
+initial_forget_bias: 3
+learning_rate:
+  0: 0.01
+  30: 0.005
+  40: 0.001
+log_interval: 5
+log_n_figures: 1
+log_tensorboard: false
+loss: MSE
+metrics:
+- NSE
+model: cudalstm
+num_workers: 0
+optimizer: Adam
+output_activation: linear
+output_dropout: 0.4
+predict_last_n: 1
+run_dir: /home/hydro/flood/2025_neuralriverops/neuralriverops/data/keum_river_basin/yd_dam_downstream/retrain/ar_data/runs/3004620_hwl/model
+save_weights_every: 5
+seq_length: 720
+target_variables:
+- 3004620_hwl
+test_basin_file: /home/hydro/flood/2025_neuralriverops/neuralriverops/data/keum_river_basin/yd_dam_downstream/retrain/ar_data/train_yd_dam_downstream.txt
+test_end_date: 30/09/2021
+test_start_date: 01/10/2020
+train_basin_file: /home/hydro/flood/2025_neuralriverops/neuralriverops/data/keum_river_basin/yd_dam_downstream/retrain/ar_data/train_yd_dam_downstream.txt
+train_end_date: 30/09/2019
+train_start_date: 01/10/2014
+validate_every: 5
+validate_n_random_basins: 1
+validation_basin_file: /home/hydro/flood/2025_neuralriverops/neuralriverops/data/keum_river_basin/yd_dam_downstream/retrain/ar_data/train_yd_dam_downstream.txt
+validation_end_date: 30/09/2020
+validation_start_date: 01/10/2019
